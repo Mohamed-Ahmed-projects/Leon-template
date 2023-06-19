@@ -53,7 +53,7 @@ body {
 small screens will be take 100% of the width
 screens between 767 and 991 will take 750px
  */
-@media (min-width: 767px){
+ @media (min-width: 767px){
     .container {
         width: 750px;
     }
@@ -321,12 +321,6 @@ font-size: 17px;
 }
 /* end protofolio section  */
 /* start section of about data*/
-
-/* .about .container {
-    margin-top: 100px;
-} */
-
-
 .about .content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -377,6 +371,12 @@ font-size: 17px;
     position: relative;
     width: 250px;
     height: 370px;
+}
+@media (max-width: 766px){
+    .image {
+        margin-left:auto;
+        margin-right: auto;
+    }
 }
 .about .content img {
     max-width: 100%;
